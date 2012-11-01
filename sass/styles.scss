@@ -11,6 +11,8 @@ $dark_mint: #84b37f;
 $blue: #89d0c9;
 $dark_blue: #328a9d;
 
+/*end coler scheme */
+
 .intro {
   margin-top: 30px;
   text-align: center;
@@ -39,7 +41,7 @@ p {
   }
   
   .box {
-    background: #bfdeb4;
+    background: $mint;
   }
 }
 
@@ -52,7 +54,7 @@ p {
   }
   
   .box {
-    background: #89d0c9;
+    background: $blue;
   }
 }
   
@@ -66,7 +68,7 @@ p {
   }
   
   .box {
-    background: #333;
+    background: $dark_grey;
   }
   
 }
