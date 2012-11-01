@@ -23,7 +23,7 @@ p {
 }
 
 .box {
-  background: #e9725c;
+  background: #bfdeb4;
   display: block;
   height: 30px;
   margin-top: 20px;
@@ -39,7 +39,7 @@ p {
   }
   
   .box {
-    background: #bfdeb4;
+    background: #e9725c;
   }
 }
 
