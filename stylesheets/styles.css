@@ -1,0 +1,71 @@
+/*coler scheme */
+/*$white: #fff;
+$black: #000;
+$light_grey: #f5f6f7;
+$grey: #b3b5b5;
+$dark_grey: #333;
+$orange: #e9725c;
+$mint: #bfdeb4;
+$dark_mint: #84b37f;
+$blue: #89d0c9;
+$dark_blue: #328a9d;*/
+/* line 14, ../sass/styles.scss */
+.intro {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* line 19, ../sass/styles.scss */
+p {
+  color: #b3b5b5;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* line 25, ../sass/styles.scss */
+.box {
+  background: #bfdeb4;
+  display: block;
+  height: 30px;
+  margin-top: 20px;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 36, ../sass/styles.scss */
+  p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* line 41, ../sass/styles.scss */
+  .box {
+    background: #e9725c;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* line 49, ../sass/styles.scss */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* line 54, ../sass/styles.scss */
+  .box {
+    background: #89d0c9;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /* line 63, ../sass/styles.scss */
+  p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  /* line 68, ../sass/styles.scss */
+  .box {
+    background: #333;
+  }
+}

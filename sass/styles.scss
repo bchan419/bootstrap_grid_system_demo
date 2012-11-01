@@ -1,0 +1,72 @@
+/*coler scheme */
+
+$white: #fff;
+$black: #000;
+$light_grey: #f5f6f7;
+$grey: #b3b5b5;
+$dark_grey: #333;
+$orange: #e9725c;
+$mint: #bfdeb4;
+$dark_mint: #84b37f;
+$blue: #89d0c9;
+$dark_blue: #328a9d;
+
+.intro {
+  margin-top: 30px;
+  text-align: center;
+}
+
+p {
+  color: $dark_grey;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.box {
+  background: $orange;
+  display: block;
+  height: 30px;
+  margin-top: 20px;
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  
+  p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .box {
+    background: #bfdeb4;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .box {
+    background: #89d0c9;
+  }
+}
+  
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  
+  p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .box {
+    background: #333;
+  }
+  
+}
